@@ -7,6 +7,8 @@ require 'tmpdir'
 require 'launchy'
 require 'json'
 
+require 'bundler/setup'
+
 module Bdoc
   VERSION = '0.2.2'
 
